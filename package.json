@@ -1,0 +1,50 @@
+{
+  "name": "vite-frame-nologin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "fix": "eslint src --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "lint:eslint": "eslint src/**/*.{ts,vue} --cache --fix",
+    "lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.6.2",
+    "element-plus": "^2.4.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.23.3",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^9.19.2",
+    "postcss": "^8.4.32",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.9",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "stylelint": "^16.0.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recess-order": "^4.4.0",
+    "stylelint-config-recommended-scss": "^13.1.0",
+    "stylelint-config-standard": "^35.0.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-scss": "^5.3.2",
+    "vite": "^5.0.7"
+  }
+}
